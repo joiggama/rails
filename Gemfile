@@ -179,3 +179,12 @@ gem "wdm", ">= 0.1.0", platforms: [:windows]
 if RUBY_VERSION >= "3.1"
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
 end
+
+
+group "development" do
+  gem "guard"
+  gem "guard-shell"
+  gem "pry-byebug"
+  gem "terminal-notifier"
+  gem "terminal-notifier-guard"
+end
